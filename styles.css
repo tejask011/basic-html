@@ -1,0 +1,120 @@
+.title .button {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-fluid {
+     border-radius: 20px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    box-shadow: #5ce290 0px 5px 15px;
+    
+ 
+}
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.custom-font {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+
+
+.btn {
+   transition: transform 0.2s ease;
+}
+
+.btn:hover {
+   transform: scale(1.05);
+}
+
+
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+  
+}
+
+.img-wrapper {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+   display: block;
+   margin: auto;
+
+}
+
+
+
+.icon1{
+  padding: 10px;
+}
+
+#testimonial .img-wrapper:hover {
+    transform: scale(1.1);
+}
+
+#testimonial {
+background-color: aliceblue;
+}
+
+
+.company-logo {
+    background-color: aliceblue;
+}
+
+
+.custom-font-2{
+  font-family: 'marriweather', serif;
+}
+
+.col:hover {
+    box-shadow: 0 12px 18px rgba(114, 86, 225, 0.308);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+
+#footer {
+  display: block;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+    
+}
+
+.text-body-secondary {
+  color: white !important;
+}
